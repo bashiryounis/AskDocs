@@ -1,0 +1,30 @@
+# Ignore development and environment files
+Dockerfile
+docker-compose.yaml
+docker-compose.yml
+Makefile
+
+# Distribution / packaging
+python
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+libs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.zip
+docs/

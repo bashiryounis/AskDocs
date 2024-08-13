@@ -1,0 +1,59 @@
+# Ignore compiled Python files and caches
+*.pyc
+__pycache__/
+
+# Distribution / packaging
+python
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+libs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.zip
+
+# Ignore development and environment files
+*.log
+*.tmp
+*.swp
+
+
+# Ignore system-specific files and directories
+*.DS_Store
+Thumbs.db
+
+# Ignore dependencies, virtual environments, and build artifacts
+venv/
+env/
+env-bak/
+build/
+dist/
+*.egg-info/
+
+# Ignore local development files
+.idea/
+.vscode/
+
+# Ignore user-specific configuration files
+*.iml
+*.pyproj
+*.pycproj
+*.sln
+*.vsconfig
+
+docs/
+api/data/
