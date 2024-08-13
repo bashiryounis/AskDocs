@@ -7,6 +7,10 @@ from src.services.user.user import router as user_router
 from src.services.file import router as file_router
 from src.services.chat.chat import router as chat_router
 from src.services.chat.chat_socket import router as socket_router
+from src.core.logging_config import setup_logging
+
+# Initialize logging
+setup_logging()
 
 app = FastAPI(
     debug=True,
