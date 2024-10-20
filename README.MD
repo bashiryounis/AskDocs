@@ -2,8 +2,15 @@
 
 ## Overview
 
-The LangChain Service is a FastAPI application offering functionalities including user management, file handling, real-time chat, and document-based question answering. It uses Redis for real-time chat, MongoDB for user data and chat history, Celery for task management, and Weaviate as a vector database for retrieval-augmented generation (RAG). LangChain is utilized to set up chains for question answering that call GPT-4 for generating responses based on document context.
+The AskDocs Service is a FastAPI application offering functionalities including user management, file handling, real-time chat, and document-based question answering. It uses Redis for real-time chat, MongoDB for user data and chat history, Celery for task management, and Weaviate as a vector database for retrieval-augmented generation (RAG). LangChain is utilized to set up chains for question answering that call GPT-4 for generating responses based on document context.
 
+## Architecture Diagram
+
+Below is a visual representation of the AskDocs Service architecture:
+
+![AskDocs Service Architecture](diagram.png)
+
+This diagram illustrates the key components of the service and their interactions, including the FastAPI application, various operations (User, File, Chat, Question Answering), databases (Weaviate, Redis, MongoDB), and integration with LLM ChatGPT.
 
 
 ## Features

@@ -55,5 +55,4 @@ dist/
 *.sln
 *.vsconfig
 
-docs/
 api/data/
